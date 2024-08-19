@@ -7,8 +7,9 @@
   </div>
   <div class="navbar-center">
     <a class="btn btn-ghost text-xl" href="/">
-  	uno chan demo site
+  	  uno chan demo site
     </a>
+    <p>with unocess animations</p>
   </div>
   
   <div class="navbar-end">
