@@ -30,6 +30,7 @@
 		"startCommand": "node .stackblitz.js && npm install && npm run dev"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.4",
 		"autoprefixer": "^10.4.20",
 		"daisyui": "^4.12.10",
 		"postcss": "^8.4.41",
