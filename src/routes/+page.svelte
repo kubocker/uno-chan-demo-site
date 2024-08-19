@@ -1,5 +1,6 @@
 <script lang="ts">
 	import AnimationCard from "./AnimationCard.svelte";
+	import Animations from "./Animations.svelte";
 
   let animations: string[] = [
 	"fadeIn",
@@ -60,8 +61,6 @@
 
 <div class="min-h-screen flex items-center justify-center">
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl">
-    {#each animations as title, idx (idx)}
-	  <AnimationCard title={title} />
-    {/each}
+	<Animations />
   </div>
 </div>
