@@ -31,6 +31,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.4",
+		"@tabler/icons-svelte": "^3.14.0",
 		"autoprefixer": "^10.4.20",
 		"daisyui": "^4.12.10",
 		"postcss": "^8.4.41",

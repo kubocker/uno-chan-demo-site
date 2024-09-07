@@ -59,8 +59,13 @@
   ]
 </script>
 
-<div class="min-h-screen flex items-center justify-center">
+<div class="min-h-screen flex flex-col items-center justify-center space-y-20">
+  <div class="mockup-code w-full max-w-3xl">
+    <pre><code>
+      {`animate-{アニメーション名}-{回数|infnite}-1500ms`}
+    </code></pre>
+  </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl">
-	<Animations />
+	  <Animations />
   </div>
 </div>

@@ -2,7 +2,7 @@
 
 </script>
 
-<div>
+<div class="tooltip" data-tip={`animate-fadeIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -20,7 +20,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-slideIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'slideIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -30,7 +30,7 @@
 </div>
 
   
-<div>
+<div  class="tooltip" data-tip={`animate-slideOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'slideOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -39,7 +39,7 @@
   </div>
 </div>
   
-<div>
+<div  class="tooltip" data-tip={`animate-bounce-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounce'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -49,7 +49,7 @@
 </div>
 
   
-<div>
+<div  class="tooltip" data-tip={`animate-wiggle-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'wiggle'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -59,7 +59,7 @@
 </div>
   
   
-<div>
+<div  class="tooltip" data-tip={`animate-shake-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'shake'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -70,7 +70,7 @@
   
   
   
-<div>
+<div  class="tooltip" data-tip={`animate-zoomIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -80,7 +80,7 @@
 </div>
   
   
-<div>
+<div  class="tooltip" data-tip={`animate-zoomOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -89,7 +89,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-rotate-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'rotate'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -98,7 +98,7 @@
   </div>
 </div>
   
-<div>
+<div  class="tooltip" data-tip={`animate-spin-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'spin'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -107,7 +107,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-flip-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flip'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -116,7 +116,7 @@
   </div>
 </div>
   
-<div>
+<div  class="tooltip" data-tip={`animate-pulse-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'pulse'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -125,7 +125,7 @@
   </div>
 </div>
   
-<div>
+<div  class="tooltip" data-tip={`animate-flash-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flash'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -134,7 +134,7 @@
   </div>
 </div>
   
-<div>
+<div  class="tooltip" data-tip={`animate-rubberBand-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'rubberBand'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -144,7 +144,7 @@
 </div>
   
   
-<div>
+<div  class="tooltip" data-tip={`animate-jello-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'jello'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -153,7 +153,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-swing-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'swing'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -163,7 +163,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-hinge-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'hinge'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -172,7 +172,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-tada-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'tada'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -181,7 +181,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -190,7 +190,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -200,7 +200,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-flipInX-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flipInX'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -210,7 +210,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-flipOutX-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flipOutX'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -220,7 +220,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-flipInY-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flipInY'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -229,7 +229,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-flipOutY-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'flipOutY'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -238,7 +238,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-lightSpeedIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'lightSpeedIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -247,7 +247,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-lightSpeedOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'lightSpeedOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -257,7 +257,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-rollIn-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'rollIn'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -267,7 +267,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-rollOut-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'rollOut'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -278,7 +278,7 @@
 
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeInDown-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeInDown'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -288,7 +288,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeOutDown-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeOutDown'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -298,7 +298,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeOutLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeOutUp'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -308,7 +308,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeOutLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeOutLeft'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -317,7 +317,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-fadeOutRight-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'fadeOutRight'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -326,7 +326,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceInDown-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceInDown'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -336,7 +336,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceInUp-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceInUp'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -346,7 +346,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceInLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceInLeft'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -356,7 +356,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceInRight-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceInRight'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -367,7 +367,7 @@
 
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceOutDown-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceOutDown'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -376,7 +376,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceOutUp-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceOutUp'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -386,7 +386,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceOutLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceOutLeft'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -395,7 +395,7 @@
   </div>
 </div>
 
-<div>
+<div  class="tooltip" data-tip={`animate-bounceOutRight-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'bounceOutRight'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -405,7 +405,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-zoomInDown-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomInDown'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -415,7 +415,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-zoomInUp-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomInUp'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -425,7 +425,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-zoomInLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomInLeft'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -435,7 +435,7 @@
 </div>
 
 
-<div>
+<div  class="tooltip" data-tip={`animate-zoomInRight-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomInRight'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -445,7 +445,7 @@
 </div>
 
 
-<div>
+<div class="tooltip" data-tip={`animate-zoomOutUp-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomOutUp'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -455,7 +455,7 @@
 </div>
 
 
-<div>
+<div class="tooltip" data-tip={`animate-zoomOutLeft-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomOutLeft'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
@@ -464,7 +464,7 @@
   </div>
 </div>
 
-<div>
+<div class="tooltip" data-tip={`animate-zoomOutRight-infinite-1500ms`}>
   <h2 class="font-bold text-center mb-2">{'zoomOutRight'}</h2>
   <div class="card bg-[#eff6ff] w-80 aspect-[3/2] shadow-xl mx-auto">
     <div class="card-body flex items-center justify-center text-center text-[#1e40af]">
