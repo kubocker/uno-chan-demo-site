@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
@@ -5,7 +7,7 @@ import { Menu, X } from "lucide-react"
 export function Header() {
   const [open, setOpen] = useState(false)
   return (
-    <header className="sticky top-0 z-50 w-full bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white shadow-lg">
+    <div className="sticky top-0 z-50 w-full bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white shadow-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-6">
         <Link href="/" className="text-2xl font-extrabold tracking-tight">
           kubocchi
@@ -45,7 +47,7 @@ export function Header() {
             >
               <X className="h-5 w-5" />
             </button>
-            <nav className="mt-8 flex flex-col space-y-4">
+            {/* <nav className="mt-8 flex flex-col space-y-4">
               {['Home','Payment of Service','Privacy Policy','Commercial Transaction','Terms of Service'].map((label, i) => (
                 <Link
                   key={i}
@@ -56,10 +58,10 @@ export function Header() {
                   {label}
                 </Link>
               ))}
-            </nav>
+            </nav> */}
           </div>
         </div>
       )}
-    </header>
+    </div>
   )
 }
