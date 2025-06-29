@@ -20,7 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li className="tracking-[-.01em]">
+          <li className="tracking-[-.01em] animate-fadeIn-100-1000ms">
             Save and see your changes instantly.
           </li>
         </ol>

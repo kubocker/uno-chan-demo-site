@@ -13,5 +13,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@unocss/postcss": "^66.3.2",
+    "uno-chan": "^0.1.0",
+    "unocss": "^0.58.9"
+  }
 }
