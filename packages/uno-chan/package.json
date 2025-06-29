@@ -1,20 +1,15 @@
 {
   "name": "uno-chan",
-  "version": "0.1.1",
+  "version": "0.1.12",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": ["dist"],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "dependencies": {
-    "unocss": "^0.58.0"
+    "@unocss/core": "^66.3.2 || ^1.0.0",
+    "unocss": "^66.3.2 || ^1.0.0"
   },
   "devDependencies": {
     "tsup": "^7.2.0",
