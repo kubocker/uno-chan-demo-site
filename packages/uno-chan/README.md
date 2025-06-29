@@ -1,6 +1,6 @@
 # uno-chan
 
-`uno-chan` is an UnoCSS preset that provides custom utility classes and animations.
+`uno-chan` is an UnoCSS preset that provides custom utility classes and a rich set of animations.
 
 ## Installation
 
@@ -14,38 +14,89 @@ npm install uno-chan
 yarn add uno-chan
 ```
 
-## Usage with Next.js
+## Setup
 
-1.  **Create `uno.config.ts` in your Next.js project (e.g., `apps/demo/uno.config.ts`):**
+To use `uno-chan`, you need to add it to your UnoCSS configuration file (e.g., `uno.config.ts`).
 
-    If you don't have an `uno.config.ts` file, create one at the root of your Next.js application (e.g., `apps/demo/uno.config.ts`).
+1.  **Import the preset:**
 
     ```typescript
-    // apps/demo/uno.config.ts
     import { defineConfig } from 'unocss';
     import unoChanPreset from 'uno-chan';
 
     export default defineConfig({
       presets: [
         unoChanPreset(),
-        // ... other UnoCSS presets you might be using
+        // ... other UnoCSS presets
       ],
       // ... other UnoCSS configurations
     });
     ```
 
-2.  **Integrate UnoCSS with Next.js:**
+2.  **Integrate UnoCSS with your project:**
 
-    Ensure your Next.js project is set up to use UnoCSS. This typically involves configuring `next.config.js` and importing UnoCSS styles. Refer to the official UnoCSS documentation for Next.js integration if you haven't already set it up.
+    If you haven't already, set up UnoCSS in your project. Refer to the [official UnoCSS documentation](https://unocss.dev/) for framework-specific integration guides (e.g., for Next.js, Svelte, or Vite).
 
-3.  **Use the `fadeIn` animation:**
+## Available Animations
 
-    `uno-chan` provides a `fadeIn` animation. You can use it with the `animation-fadeIn-<duration>ms` utility class.
+`uno-chan` provides a variety of animations that can be applied with the `animation-<name>-<duration>ms` utility class. You can also specify an iteration count or `infinite`.
 
-    ```html
-    <div class="animation-fadeIn-1000ms">
-      This element will fade in over 1000 milliseconds.
-    </div>
+**Usage:**
+
+-   `animation-<name>-<duration>ms`
+-   `animation-<name>-<duration>ms-<iteration-count>`
+-   `animation-<name>-<duration>ms-infinite`
+
+**Example:**
+
+```html
+<div class="animation-fadeIn-1000ms">This element will fade in over 1 second.</div>
+<div class="animation-bounce-500ms-3">This element will bounce 3 times.</div>
+<div class="animation-spin-2000ms-infinite">This element will spin continuously.</div>
+```
+
+**Supported Animations:**
+
+-   `fadeIn`, `fadeOut`
+-   `fadeInDown`, `fadeInUp`
+-   `fadeOutDown`, `fadeOutUp`
+-   `slideIn`, `slideOut`
+-   `zoomIn`, `zoomOut`
+-   `zoomInDown`, `zoomInUp`, `zoomInLeft`, `zoomInRight`
+-   `zoomOutDown`, `zoomOutUp`, `zoomOutLeft`, `zoomOutRight`
+-   `bounce`
+-   `shake`
+-   `rotate`
+-   `flip`
+-   `spin`
+-   `pulse`
+-   `flash`
+-   `wiggle`
+
+## Building from Source
+
+If you need to build the package from its source code, follow these steps:
+
+1.  **Clone the repository and navigate to the `uno-chan` package:**
+
+    ```bash
+    # Clone your project repository if you haven't already
+    git clone <your-repo-url>
+    cd <your-repo>/packages/uno-chan
     ```
 
-    The `duration` can be any number representing milliseconds (e.g., `500ms`, `2000ms`).
+2.  **Install dependencies:**
+
+    ```bash
+    pnpm install
+    ```
+
+3.  **Run the build command:**
+
+    The build script uses `tsup` to compile the TypeScript source code into both ESM and CJS formats and generates type definitions.
+
+    ```bash
+    pnpm run build
+    ```
+
+    This will create a `dist` directory with the compiled output.
