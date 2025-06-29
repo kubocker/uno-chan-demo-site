@@ -2,6 +2,11 @@
 
 `uno-chan` is an UnoCSS preset that provides custom utility classes and a rich set of animations.
 
+## Demo
+
+You can see a live demo of the animations at:
+[https://uno-chan-demo-site.vercel.app/](https://uno-chan-demo-site.vercel.app/)
+
 ## Installation
 
 Install `uno-chan` in your project:
