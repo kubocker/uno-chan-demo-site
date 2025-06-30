@@ -19,7 +19,7 @@ export const Header = () => {
             href="/"
             className="text-2xl font-bold text-gray-800 tracking-tight hover:text-primary no-underline"
            >
-            uno chan
+            Uno Chan
           </a>
           <span className="text-sm text-gray-500 hidden sm:inline">with unocss animations</span>
         </div>
