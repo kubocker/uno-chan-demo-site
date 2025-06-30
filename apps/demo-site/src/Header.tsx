@@ -1,6 +1,13 @@
 import IconCoffee from './assets/coffee.svg';
 import IconBook from './assets/book.svg';
 import IconDeviceGamepad2 from './assets/device-gamepad-2.svg';
+import { PaymentLinks } from './constant';
+
+const StripePaymentLinks = [
+  PaymentLinks.cafeUrl,
+  PaymentLinks.bookUrl,
+  PaymentLinks.gameUrl
+]
 
 export const Header = () => {
   return (
@@ -22,7 +29,7 @@ export const Header = () => {
           <span className="text-sm font-semibold text-gray-700">support me !</span>
           
           {[IconCoffee, IconBook, IconDeviceGamepad2].map((icon, i) => (
-            <a key={i} href="#" className="w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center transition-all duration-200">
+            <a key={i} target="_blank" href={`${StripePaymentLinks[i]}`} className="w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center transition-all duration-200">
               <img src={icon} alt={`icon-${i}`} className="w-5 h-5" />
             </a>
           ))}
