@@ -21,7 +21,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   animationRule: () => animationRule,
-  unoChanPreset: () => unoChanPreset
+  default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
 var import_unocss = require("unocss");
@@ -181,8 +181,8 @@ var unoChanPreset = () => (0, import_unocss.definePreset)({
     }
   ]
 });
+var src_default = unoChanPreset;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  animationRule,
-  unoChanPreset
+  animationRule
 });

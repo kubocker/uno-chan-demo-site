@@ -156,7 +156,8 @@ var unoChanPreset = () => definePreset({
     }
   ]
 });
+var src_default = unoChanPreset;
 export {
   animationRule,
-  unoChanPreset
+  src_default as default
 };

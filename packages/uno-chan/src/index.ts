@@ -23,7 +23,7 @@ export const animationRule: Rule = [
   },
 ]
 
-export const unoChanPreset: Preset = () => definePreset({
+const unoChanPreset: Preset = () => definePreset({
   name: 'uno-chan',
   rules: [animationRule],
   safelist: supportedAnimations.map(name => `animation-${name}-1500ms-infinite`),
@@ -139,3 +139,5 @@ export const unoChanPreset: Preset = () => definePreset({
     },
   ],
 })
+
+export default unoChanPreset;

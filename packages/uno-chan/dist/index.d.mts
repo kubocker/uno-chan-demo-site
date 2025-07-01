@@ -1,6 +1,6 @@
-import { Rule, Preset } from 'unocss';
+import { Preset, Rule } from 'unocss';
 
 declare const animationRule: Rule;
 declare const unoChanPreset: Preset;
 
-export { animationRule, unoChanPreset };
+export { animationRule, unoChanPreset as default };
